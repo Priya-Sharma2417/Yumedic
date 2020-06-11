@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yumedic|Homepage</title>
+    <link rel="stylesheet" type="text/css" href="sty1.css">
+   
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <link href="https://icons8.com/icon/108030/tooth-caries"
+          rel="stylesheet">
+    <link href=" https://icons8.com/icon/106169/child-with-pacifier"
+          rel="stylesheet">
+    
+    
+     <link href="https://icons8.com/icon/6586/medical-doctor"rel="stylesheet">
+     
+    <link href="https://icons8.com/icon/EG1CnBMgs0Sf/brain" rel="stylesheet">
+     
+    <link href="https://icons8.com/icon/102735/pregnant" rel="stylesheet">
+    
+     <link href="https://icons8.com/icon/7569/woman's-hair" rel="stylesheet">
+    
+     <link href="https://icons8.com/icon/19437/dog-bone" rel="stylesheet">
+    
+     <link href="https://icons8.com/icon/16100/eye"
+          rel="stylesheet">
+   
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <img src="images/yumediclogo.jpg" >
+            </div>
+            <ul>
+                <li><a href="#">Login/Sign Up</a></li>
+                 <li><a href="#">FAQ</a></li> 
+                <li><a href="#">Contact Us</a></li>       
+            </ul>
+        </div>
+    </header> 
+   <section class="sec2"> 
+        <div class="title">
+            <span><label class="hd1"><bold>SEARCH WITH SPECIALIST</bold></label></span><br>
+           
+            <input id="srch" type="text" placeholder="Enter doctor or hospital " >    <button id="srchbut">SEARCH</button>         
+       </div>
+    </section>
+     <section class="sec1"> 
+         <ul>
+             <li>
+               <a href="#">
+                   <div class="icon" >
+                      <i class="fa fa-stethoscope" aria-hidden="true"></i>
+                   </div>
+                   <div class="name">General Physician</div>
+                 </a>
+             </li>
+             
+              <li>
+               <a href="#">
+                   <div class="icon" >
+                      <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                   </div>
+                   <div class="name">Cardiology</div>
+                 </a>
+             </li>
+             
+              <li>
+               <a href="#">
+                   <div class="icon" >
+                      <img src="https://img.icons8.com/ios-glyphs/30/000000/child-with-pacifier.png"/>
+                   </div>
+                   <div class="name">Child Specialist</div>
+                 </a>
+             </li>
+             
+              <li>
+               <a href="#">
+                   <div class="icon" >
+                  <img src="https://img.icons8.com/material-outlined/24/000000/tooth-caries.png"/>
+                   </div>
+                   <div class="name">Dental</div>
+                 </a>
+             </li>
+             
+             <li>
+               <a href="#">
+                   <div class="icon" >
+                 <img src="https://img.icons8.com/windows/32/000000/brain-3.png"/>
+                   </div>
+                   <div class="name">Neurologist</div>
+                 </a>
+             </li>
+         </ul>
+    </section>
+    <section class="sec1">
+        <ul>
+              <li>
+               <a href="#">
+                   <div class="icon" >
+                  <img src="https://img.icons8.com/metro/26/000000/medical-doctor.png"/>
+                   </div>
+                   <div class="name">Surgeon</div>
+                 </a>
+             </li>
+             <li>
+               <a href="#">
+                   <div class="icon" >
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/pregnant.png"/>
+                   </div>
+                   <div class="name">Gynoecologist</div>
+                 </a>
+             </li>
+             <li>
+               <a href="#">
+                   <div class="icon" >
+                  <img src="https://img.icons8.com/metro/26/000000/womans-hair.png"/>
+                   </div>
+                   <div class="name">Skin And Care</div>
+                 </a>
+             </li>
+            
+             <li>
+               <a href="#">
+                   <div class="icon" >
+             <img src="https://img.icons8.com/windows/32/000000/dog-bone.png"/>
+                   </div>
+                   <div class="name">Bones and Joints</div>
+                 </a>
+             </li>
+             <li>
+               <a href="#">
+                   <div class="icon" >
+                 <img src="https://img.icons8.com/windows/32/000000/visible.png"/>
+                   </div>
+                   <div class="name">Eye Specialist</div>
+                 </a>
+             </li>
+         </ul>
+    </section>
+    <div style="background-color: rgba(0, 0, 0, 0.7);
+  height:100%; width:100%;margin-top: 600px">
+  <center>
+      
+   <img class="mySlides" src="images/medical-services.jpg"> 
+   <img class="mySlides" src="images/doc1.jpg">
+  <img class="mySlides" src="images/doc2.jpg">
+  <img class="mySlides" src="images/slidesheart.jpg">
+ 
+ 
+</center>
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {
+      myIndex = 1;
+  }    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000); // Change image every 4 seconds
+}
+</script>
+    </div>
+   <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Services</h2>
+                    <h3 class="section-subheading text-muted">YOUR HEALTH,OUR PRIORITY.</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i></span>
+                        <h4 class="my-3">Connection</h4>
+                        <p class="text-muted">We connect the Health Care providers with their patients that would enable the common people to get access to the best Health Care services at minimal cost and ample ease.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-laptop fa-stack-1x fa-inverse"></i></span>
+                        <h4 class="my-3">Check Available Appointments</h4>
+                        <p class="text-muted">We provide our customer with the available list of doctors so that they can get treated at the right time. </p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-lock fa-stack-1x fa-inverse"></i></span>
+                        <h4 class="my-3">Book Appointments</h4>
+                        <p class="text-muted">Book Appointments with right doctor at right time</p>
+                    </div>
+                </div>
+            </div>
+        </section>  
+<section>
+<div class="footer">
+  <p>Copyright Yumedic 2020</p>
+</div>
+    </section>
+</body>
+</html>
